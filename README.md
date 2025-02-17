@@ -10,7 +10,7 @@ Descripción reservada...
 git clone git@github.com:Daniel-Santiago-Acosta-1013/Trixy.git
 ```
 
-1.  Instale las dependencias usando yarn:
+1.  Instale las dependencias usando npm:
 
 ```
 npm i -S
