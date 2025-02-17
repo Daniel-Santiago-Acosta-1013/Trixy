@@ -44,6 +44,13 @@ export function GameScreen() {
       style={styles.container}
     >
       <View style={styles.content}>
+        <Animated.Text 
+          entering={FadeIn}
+          style={styles.title}
+        >
+          Trixy
+        </Animated.Text>
+
         <Animated.View 
           entering={FadeIn}
           style={styles.modeContainer}

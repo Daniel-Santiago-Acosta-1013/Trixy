@@ -11,6 +11,16 @@ export const styles = StyleSheet.create({
     padding: 20,
     paddingBottom: 100,
   },
+  title: {
+    fontSize: 40,
+    fontFamily: 'Trixy',
+    color: '#fff',
+    textAlign: 'center',
+    marginBottom: 20,
+    textShadowColor: 'rgba(0, 0, 0, 0.3)',
+    textShadowOffset: { width: 0, height: 2 },
+    textShadowRadius: 4,
+  },
   modeContainer: {
     flexDirection: 'row',
     flexWrap: 'wrap',
